@@ -12,6 +12,12 @@ class  CashRegister
     @item_list=[]
   end
   
+  
+  def add_item(item,price)
+    @item_list.push(item)
+    @total += price
+  end
+  
 
   
   
