@@ -13,7 +13,7 @@ class  CashRegister
   end
   
   
-  def add_item(item,price)
+  def add_item(item,price,quantity=1)
     @item_list.push(item)
     @total += price
   end
